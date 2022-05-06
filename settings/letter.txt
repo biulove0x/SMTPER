@@ -1,0 +1,12 @@
+This mail was directly sent by ####HOST####.
+
+SMTP host: ####HOST####
+Port: 587
+Use SLL: True
+Use Authentication: True
+Authentication name: ####USERNAME####
+Authentication password: [not applicable]
+Email from: ####FROM####
+Email to: ####EMAIL_TO####
+
+This service is provided by https://www.smtper.net
