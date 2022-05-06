@@ -16,17 +16,17 @@ def _sendEmail(_receiversEmail):
     _smtpFrom = _config.get('smtp_server', 'FROM')
 
     ### Replace letter
-    fin = open('settings/letter.txt', 'rt')
-    data = fin.read()
-    data = data.replace('####HOST####', _smtpHost)
-    data = data.replace('####USERNAME####', _smtpUser)
-    data = data.replace('####FROM####', _smtpFrom)
-    data = data.replace('####EMAIL_TO####', _receiversEmail)
-    fin.close()
+    _fin = open('settings/letter.txt', 'rt')
+    _data = _fin.read()
+    _data = _data.replace('####HOST####', _smtpHost)
+    _data = _data.replace('####USERNAME####', _smtpUser)
+    _data = _data.replace('####FROM####', _smtpFrom)
+    _data = _data.replace('####EMAIL_TO####', _receiversEmail)
+    _fin.close()
 
-    fin = open('settings/letter.txt.dup', 'wt')
-    fin.write(data)
-    fin.close()
+    _fin = open('settings/letter.txt.dup', 'wt')
+    _fin.write(_data)
+    _fin.close()
     ###
     _msgHtml = open('settings/letter.txt.dup').read()
 
