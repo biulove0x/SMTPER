@@ -46,6 +46,7 @@ def _sendEmail(_receiversEmail):
         print(' [ + ] Send to email ' + _receiversEmail)
     except smtplib.SMTPException as _errorRes:
         print(_errorRes)
+        _ = os.remove('settings/letter.txt.dup')
         exit()
     
 def main(_receiversList):
