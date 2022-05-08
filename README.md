@@ -33,3 +33,5 @@ $ python3 app.py
 BTC : bc1qst09sxcnq97a4wgsqvpkg4fxyjczvs3xe7278h
 
 BNB : bnb1jhp2hv9utr8u97387p35fmftgr8wpjp39altz0
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/biulove0x)
